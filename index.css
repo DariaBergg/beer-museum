@@ -1,0 +1,35 @@
+body {
+    background-color: lightgreen;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center;
+}
+
+.logo { 
+    max-width: 10%;
+}
+
+.imgs img{
+    margin: 20px;
+    max-width: 20%;
+}
+.imgs img:hover {
+    opacity: 0.8; 
+    max-width: 22%;
+
+}
+.about-museum-ul {
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    margin-left: -30px;
+}
+
+.narration {
+    font-size: 20px;   
+}
+.degustation-photo, .interactive-game {
+    max-width: 50%;
+}
